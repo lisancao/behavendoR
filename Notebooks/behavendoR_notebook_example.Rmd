@@ -1,0 +1,52 @@
+---
+title: "behavendoR_notebook_example"
+author: "Lisa N. Cao"
+date: "22/05/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## behavendoR
+
+This is a template lab notebook for statistical analyses using behavendoR. We will go through the standard Watson lab workflow. 
+
+# This is my workflow 
+
+STAGE ONE: 
+  -Preprocessing of data
+    - Import data in ____ format from _________ (qualtRics)
+    - Clean data using _________________
+    - Create data table, clean and final version
+    -
+    
+STAGE TWO: 
+  -Data organization
+  -Exploratory analysis 
+
+STAGE THREE: 
+  -Statistical Modelling 
+    -Analyses I will be using are:
+    -Models I have made are: 
+
+STAGE FOUR: 
+  -Visualization 
+    -Basic
+    -Advanced 
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
